@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    background-color: black;
+    width: 100vw;
+    text-align: right;
+}
+#list{
+    flex-direction: row-reverse;
+    display: flex;
+    list-style: none;
+}
+#list li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+div img{
+    height:30vh;
+    width: 100vw;
+}
+img[alt]{
+    height: 30vh;
+    width: 30vw;
+    border-radius: 6px;
+    box-shadow: 20px 20px 20px black;
+    float: left;
+    margin-right: 20px;
+}
+.text{
+    padding: 20px;
+    font-size: large;
+    left: 20px;
+}
+button{
+    border-radius: 10%;
+    color: yellow;
+    background-color: red;
+    padding:10px ;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+#form{
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    height: 40vh ;
+    width: 40vw;
+    float: left;
+    font-size: 1rem;
+}
+#map{
+    position: absolute;
+    float: right;
+    height: 40vh;
+    width: 50vw;
+    top: 80%;
+    right: 1%;
+}
+footer{
+    position: absolute;
+    top: 122%;
+    width: 100%;
+}
+.top{
+    position: absolute;
+    left: 45%;
+    top: 8%;
+    color: yellow;
+}
